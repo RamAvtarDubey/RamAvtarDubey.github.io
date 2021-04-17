@@ -3,7 +3,7 @@
     width: 1500px;
     height: 800px;
     opacity: 0.4;
-    background-image: url("static/background.jpg");
+    background-image: url("background.jpg");
     background-repeat: no-repeat;
     background-size: 1400px 800px;
 }
