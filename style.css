@@ -21,19 +21,25 @@ header {
 }
 nav {
     float: right;
+    padding
     margin-right: 40px;
+}
+nav ul {
+    margin: 0px 30px 0px 0px;
 }
 
 nav ul li {
     display: inline-block;
-    padding: 10px 10px 10px 10px;
+    padding: 20px 10px 5px 10px;
     
 }
 
 nav ul li a {
     text-decoration: none;
     color: rgb(18, 20, 27);
-    padding:15px 10px 15px 10px;
+    padding: 20px 10px 5px 10px;
+    background-color: rgba(228, 218, 221, 0.2);
+    border-radius: 4px;
 }
 nav ul li a:hover {
     color: black;
