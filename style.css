@@ -89,3 +89,12 @@ nav ul li:hover {
     width: auto;
     height: 700px;
 }
+ @media (max-width: 750px) {
+    #bgimage {
+      background-image: url(smallimage.jpg);
+      background-size: 100% 100%;
+      width: auto;
+      height: 700px;
+    }
+  }
+  
