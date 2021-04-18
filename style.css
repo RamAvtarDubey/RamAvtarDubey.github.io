@@ -1,11 +1,16 @@
 header {
-    background-color: rgba(119, 13, 48, 0.3);
-    width:auto;
-    height: 75px;
+    position: absolute;
+
+    top: 20px;
+    background-color: rgba(228, 218, 221, 0.486);
+    width:100%;
+    margin-right: 30px;
+    height: 60px;
 }
 nav {
     float: right;
-    padding: 5px 14px 0 0;
+    padding: 5px 14px 10px 5px;
+    margin-right: 30px;
 }
 
 nav ul li {
@@ -16,6 +21,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
+    color: rgb(18, 20, 27);
     padding:15px;
 }
 nav ul li a:hover {
