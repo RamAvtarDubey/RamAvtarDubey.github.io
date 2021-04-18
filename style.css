@@ -1,7 +1,11 @@
+* {
+    font-family: 'righteous', cursive;
+}
+
 header {
     position: absolute;
     font-size: 20px;
-    top: 10px;
+    top: 0px;
     background-color: rgba(228, 218, 221, 0.486);
     width:100%;
     margin-right: 30px;
