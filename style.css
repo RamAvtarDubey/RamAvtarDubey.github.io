@@ -109,4 +109,50 @@ nav ul li:hover {
       height: 700px;
     }
   }
-  
+
+  #photo {
+      margin-top: 50px;
+      max-width: 100%;
+      height: auto;
+
+  }
+#calligraphy {
+    animation-name: call;
+    animation-duration: 5s;
+    width: 200px;
+    height: 50px;
+    position: relative;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'righteous', cursive;
+
+}
+
+  @keyframes call {
+0% {
+    transform: rotate(0deg);
+    left: 0px;
+}
+
+25% {
+    transform: rotate(20deg);
+    left: 0px;
+}
+50% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+55% {
+    transform: rotate(0deg);
+    left: 500px;
+}
+70% {
+    transform: rotate(0deg);
+    left: 500px;
+    background: #1ec7e6;
+}
+100% {
+    transform: rotate(-360deg);
+    left: 0px;
+}
+  }
