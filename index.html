@@ -1,55 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <title>MobileStore - Online Mobile Shop</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>SelfLearned_Calligrapher™</title>
 
+    <style>
+        .container {
+          display: none;
+          cursor: pointer;
+        }
+        
+        .bar1, .bar2, .bar3 {
+          width: 35px;
+          height: 5px;
+          background-color: #333;
+          margin: 6px 0;
+          transition: 0.4s;
+        }
+        
+        .change .bar1 {
+          -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+          transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        
+        .change .bar2 {opacity: 0;}
+        
+        .change .bar3 {
+          -webkit-transform: rotate(45deg) translate(-8px, -8px);
+          transform: rotate(45deg) translate(-8px, -8px);
+        }
+        </style>
 </head>
-
 <body>
-    <div class="main_bg">
+
+<div id="bgimage">
+</div>
+<header>
+    <div>
+        <nav>
+            
+            <div class="container" onclick="myFunction(this)" id="responsive-logo">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+              </div>
+              <script>
+                function myFunction(x) {
+                  x.classList.toggle("change");
+                }
+                </script>
+            <ul>
+                <li><a href="b">Home</a></li>
+                <li><a href="c">About Me</a></li>
+                <li><a href="d">Videos</a></li>
+                <li><a href="e">Gallery</a></li>
+                <li><a href="f">Contact Me</a></li>
+            </ul>
+        </nav>
     </div>
-    <p class="logo" style="margin-top: 0;"><a
-            style="padding:0; font-family: 'Righteous', cursive; color:chocolate; font-size: 30px; text-shadow: dimgrey 2px 2px;">Mobile</a><a
-            style="color: white;padding:0; background-color: rgba(255, 56, 15, 0.3); border: black; border-width: 2px; font-size: 30px; box-shadow: dimgrey 2px 2px;  text-shadow: dimgrey 2px 2px; 
-    font-family: 'Righteous', cursive;">Store</a><sup>&reg;</sup>
-        <a class='navbars' href="index.html" id="home_link">Home</a>
-        <a class='navbars' href="about.html" style="font-size: 15px;">About</a>
-        <a class='navbars' href="contact.html" style="font-size: 15px;">Contact Us</a>
-        <a class='navbars' href="store.html" style="font-size: 15px;">Store</a>
-        <a class='navbars' href="releases.html" style="font-size: 15px;">New Releases</a>
-    </p>
-
-    <a class="heading">
-        <p id='main'>Welcome to <span
-                style="color:chocolate; font-size: larger;text-shadow: darkslategray 2px 2px;">Mobile</span><span style="color: white; background-color: rgba(255, 56, 15, 0.3); border: black; border-width: 2px;
-                text-shadow: darkslategray 3px 3px; box-shadow: darkslategrey 3px 3px;">Store</span>&reg;
-        </p>
-        <p id="head">You Choose. We Provide.</p>
-    </a>
-    <img src="static/photo-1560677653-a263662b153b.jfif"
-        id='phone_image' alt="Unable to load image">
-    <hr width="85%" size="20%" color="grey">
-    <h1><u>Best of the Season Sale - </u></h1>
-    <img src="static/banner - 2.jpg" alt="Image could not be located!" height="400px" align='left' width="100%">
-    <img src="static/Capture.PNG" alt="s" width="100%">
-    <p>
-        <a href="store.html" id="next_page">Go to the store &rarr;</a>
-    </p>
+</header>
 
 
-
-    <p id="footer">
-        <center>&copy;Copyright 2021</center>
-    </p>
 
 
 
 </body>
-
 </html>

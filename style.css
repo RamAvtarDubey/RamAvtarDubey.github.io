@@ -1,0 +1,87 @@
+header {
+    background-color: rgba(119, 13, 48, 0.3);
+    width:auto;
+    height: 75px;
+}
+nav {
+    float: right;
+    padding: 5px 14px 0 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding:15px;
+}
+nav ul li a:hover {
+    color: black;
+    transition: all 0.7s ease 0s;
+
+}
+nav ul li:hover {
+    background-color: rgba(196, 34, 34, 0.295);
+    transition: all 0.7s ease 0s;
+}
+
+#responsive-logo {
+    display: hidden;
+    width: 40px;
+    height: 40px;
+    background-size: 17px;
+}
+
+@media screen and (max-width: 750px){
+    * {
+        margin: 0;
+    }
+    #responsive-logo {
+        display: inline-block;
+    }
+    nav ul,nav:active ul {
+        display: none;
+        position: absolute;
+        z-index: 1000;
+        padding: 30px;
+        background-color: rgba(90, 7, 7, 0.5);
+        right: 20px;
+        top: 30px;
+        border: 2px solid slategrey;
+        border-radius: 8px 8px 8px 8px;
+        width: 43%;
+        opacity: 0.92;
+
+
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+    nav li a {
+        text-align: center;
+        display: inline-block;
+    }
+
+}
+#bgimage {
+    background-image: url(mayank-baranwal-QUpQfo-eqjI-unsplash-min.jpg);
+    background-size: 100% 100%;
+    width: auto;
+    height: 700px;
+}
+@media only screen and (max-width: 320px) {
+    #bgimage {
+        background-image: url(smallimage.jpg);
+        background-size: 100% 100%;
+        width: 300px;
+        height: 400px;
+    }
+}
