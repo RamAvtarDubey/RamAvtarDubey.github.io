@@ -7,8 +7,6 @@ header {
     margin-right: 30px;
     height: 60px;
     font-family: 'Righteous', cursive;
-    overflow: hidden;
-    z-index: 1;
 }
 nav {
     float: right;
@@ -25,7 +23,6 @@ nav ul li a {
     text-decoration: none;
     color: rgb(18, 20, 27);
     padding:15px 10px 15px 10px;
-    overflow: hidden;
 }
 nav ul li a:hover {
     color: black;
@@ -43,23 +40,6 @@ nav ul li:hover {
     height: 40px;
     background-size: 17px;
 }
-
-#logo {
-    padding: 15px;
-    overflow: hidden;
-    opacity: 1;
-    background-color: rgba(0,0,0,0.2);
-    border-left: 5px solid red;
-    font-family: 'Righteous', cursive;
-    font-size: 20px;
-    position: fixed;
-    top: 0px;
-    left: 8px;
-    width:100%;
-    text-decoration: none;
-    z-index: -1;
-}
-
 
 @media screen and (max-width: 750px){
     * {
@@ -104,5 +84,4 @@ nav ul li:hover {
     background-size: 100% 100%;
     width: auto;
     height: 700px;
-    overflow: hidden;
 }
