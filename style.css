@@ -3,7 +3,7 @@
 }
 
 header {
-    position: absolute;
+    position: fixed;
     font-size: 20px;
     top: 0px;
     background-color: rgba(228, 218, 221, 0.486);
