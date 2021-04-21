@@ -142,15 +142,15 @@ nav ul li:hover {
 }
 50% {
     transform: rotate(0deg);
-    left: 500px;
+    left: 150px;
 }
 55% {
     transform: rotate(0deg);
-    left: 500px;
+    left: 150px;
 }
 70% {
     transform: rotate(0deg);
-    left: 500px;
+    left: 150px;
     background: #1ec7e6;
 }
 100% {
