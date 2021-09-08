@@ -1,79 +1,189 @@
 <!DOCTYPE html>
+<!-- avpthegreat-->
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
-    <title>Gallery | SelfLearned_Calligrapher</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SELFLEARNED CALLIGRAPHER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="gallery.css" />
 
-    <style>
-        .container {
-            display: none;
-            cursor: pointer;
-        }
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  </head>
+  <body>
 
-        .bar1,
-        .bar2,
-        .bar3 {
-            width: 35px;
-            height: 5px;
-            background-color: rgb(161, 153, 153);
-            margin: 6px 0;
-            transition: 0.4s;
-        }
+    <div id="progressbar"></div>
+    <div id="scrollpath"></div>
 
-        .change .bar1 {
-            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-            transform: rotate(-45deg) translate(-9px, 6px);
-        }
-
-        .change .bar2 {
-            opacity: 0;
-        }
-
-        .change .bar3 {
-            -webkit-transform: rotate(45deg) translate(-8px, -8px);
-            transform: rotate(45deg) translate(-8px, -8px);
-        }
-    </style>
-
-</head>
-<body>
-    
-
-    <header>
-        <div>
-            <nav>
-
-                <div class="container" id="responsive-logo" style="margin-top: 10px;">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
-
-
-                <div style="position: absolute; top: 20px; left: 10px;">SelfLearned_Calligrapher™</div>
-
-
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Me</a></li>
-                    <li><a href="video.html">Videos</a></li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
-                </ul>
-            </nav>
+    <nav class="navbar">
+      <div class="content">
+        <div class="logo"><a href="index.html">CALLIGRAPHER</a></div>
+        <ul class="menu-list">
+          <div class="icon cancel-btn">
+            <i class="fas fa-times"></i>
+          </div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="video.html">Videos</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="icon menu-btn">
+          <i class="fas fa-bars"></i>
         </div>
-    </header>
-<br><br><br><br>
-<h1 id="calligraphy">
-    Gallery
-</h1>
+      </div>
+    </nav>
 
-    Under Construction :()
+    <div class="container">
+      <h1 class="heading">
+        MY CALLIGRAPHY<span>COLLECTION</span>
+      </h1>
 
-</body>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/1.jpg"
+            alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/2.jpg"
+            alt="sunset behind San Francisco city skyline"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/3.jpg"
+            alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/4.jpg"
+            alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/5.jpg"
+            alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/6.jpg"
+            alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"
+          />
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/7.jpg"
+            alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/8.jpg"
+            alt="sunset behind San Francisco city skyline"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/9.jpg"
+            alt="people holding umbrellas on a busy street at night lit by street lights and illuminated signs in Tokyo, Japan"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/10.jpg"
+            alt="car interior from central back seat position showing driver and blurred view through windscreen of a busy road at night"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/11.jpg"
+            alt="back view of woman wearing a backpack and beanie waiting to cross the road on a busy street at night in New York City, USA"
+          />
+        </div>
+
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/12.jpg"
+            alt="man wearing a black jacket, white shirt, blue jeans, and brown boots, playing a white electric guitar while sitting on an amp"
+          />
+        </div>
+      </div>
+      <div class="gallery">
+        <div class="gallery-item">
+          <img
+            class="gallery-image"
+            src="FILES/13.jpg"
+            alt="person writing in a notebook beside by an iPad, laptop, printed photos, spectacles, and a cup of coffee on a saucer"
+          />
+        </div>
+      </div>
+    </div>
+
+
+
+    <footer>
+     
+      <div class="footer-bottom">
+          <p>copyright &copy;2020 SelfLearned_Calligrapher. designed by <span>code to infinity</span></p>
+      </div>
+  </footer>
+ 
+
+
+    <!-- java of nav -->
+    <script>
+      const body = document.querySelector("body");
+      const navbar = document.querySelector(".navbar");
+      const menu = document.querySelector(".menu-list");
+      const menuBtn = document.querySelector(".menu-btn");
+      const cancelBtn = document.querySelector(".cancel-btn");
+      menuBtn.onclick = () => {
+        menu.classList.add("active");
+        menuBtn.classList.add("hide");
+        cancelBtn.classList.add("show");
+        body.classList.add("disabledScroll");
+      };
+      cancelBtn.onclick = () => {
+        menu.classList.remove("active");
+        menuBtn.classList.remove("hide");
+        cancelBtn.classList.remove("show");
+        body.classList.remove("disabledScroll");
+      };
+
+      window.onscroll = () => {
+        this.scrollY > 20
+          ? navbar.classList.add("sticky")
+          : navbar.classList.remove("sticky");
+      };
+    </script>
+  </body>
 </html>
